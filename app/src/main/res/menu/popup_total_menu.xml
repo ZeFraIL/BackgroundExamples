@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Read picture (AsyncTask)"
+        android:id="@+id/readpicAT"/>
+
+    <item
+        android:title="Read picture (Thread)"
+        android:id="@+id/readpicT"/>
+
+    <item
+        android:title="Read text book"
+        android:id="@+id/readbook"/>
+
+    <item
+        android:title="BottomSheet"
+        android:id="@+id/bottomsheet"/>
+
+    <item
+        android:title="Back"
+        android:id="@+id/back"/>
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"/>
+
+</menu>

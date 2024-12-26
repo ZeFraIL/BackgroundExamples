@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ded8d8"
+    android:padding="30dp"
+    tools:context=".ReadPicByThread">
+
+    <Button
+        android:text="Click for pic"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnT" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/tvT" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/pbT" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@android:drawable/btn_star"
+        android:id="@+id/ivT" />
+
+</LinearLayout>

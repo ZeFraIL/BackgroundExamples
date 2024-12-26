@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BackgroundExamples</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon">menu</string>
+    <string name="bottomsheetdialog">Base class for Dialogs styled as a bottom sheet.
+        Edge to edge window flags are automatically applied if the R.attr.navigationBarColor is transparent or translucent and enableEdgeToEdge is true. These can be set in the theme that is passed to the constructor, or will be taken from the theme of the context (ie. your application or activity theme).</string>
+</resources>
